@@ -1,0 +1,89 @@
+# Hannah Yu, Ph.D.
+
+**Clinical Genomics | Bioinformatics | Genomic Data Analysis**
+
+I work at the intersection of genomic data analysis, clinical interpretation, and computational biology. My portfolio focuses primarily on clinical genomics, family genomic analysis, cancer genomics, and explainable machine learning for genomic data. I also develop science-education content and data-driven web applications.
+
+**Portfolio:** [hannahyu-source.github.io/portfolio](https://hannahyu-source.github.io/portfolio/)
+
+---
+
+## 🧬 Genomics & Bioinformatics
+
+### 01 · Family Genome × KEGG Integration
+Do family-shared genetic variants connect to disease pathways and drug targets in a way that can be systematically surfaced, not just eyeballed?
+
+- **Focus:** Family genomics · clinical knowledge-base integration
+- **Methods:** Python, pandas, ClinVar, KEGG (disease–gene–pathway–drug), pharmacogenomics
+- **Key contribution:** Reproducible pipeline integrating 5-member family SNP data with ClinVar (59,501 matched variants) and KEGG (69,546 relations) to surface candidate gene–disease–pathway–drug connections and pharmacogenomic markers, with case studies and explicit validation against source data.
+- **Repository:** [kegg-family-genome-analysis](https://github.com/hannahyu-source/kegg-family-genome-analysis)
+
+### 02 · Genomic Variant Machine Learning
+Can an explainable ML model shed light on why ClinVar submitters disagree on a variant's clinical significance?
+
+- **Focus:** Genomics × machine learning
+- **Methods:** Python, scikit-learn, XGBoost, SHAP, feature engineering, ablation analysis, GroupKFold
+- **Key contribution:** Explainable pipeline predicting CADD_PHRED and analyzing ClinVar interpretation-conflict variants, with SHAP-based interpretability, an ablation study isolating feature-engineering gains, and gene-group-held-out (GroupKFold) validation to guard against data leakage.
+- **Repository:** [genomic-variant-ML-analysis](https://github.com/hannahyu-source/genomic-variant-ML-analysis)
+
+### 03 · Family-of-Five Genome Dataset
+What can a five-member family's raw genotypes reveal about shared variants and inheritance patterns?
+
+- **Focus:** Family genomics · SNP comparison
+- **Methods:** Python, pandas, 23andMe-format SNP preprocessing, genotype comparison, visualization
+- **Key contribution:** Preprocessed and compared raw genotype data across a father–mother–3 children family to explore shared variants, heterozygosity, and Mendelian inheritance patterns.
+- **Repository:** [family-genome-analysis](https://github.com/hannahyu-source/family-genome-analysis)
+
+### 04 · OncoKB Cancer Genomics Analysis
+How can a curated cancer-gene knowledge base support hypothesis-generating, variant-level exploration?
+
+- **Focus:** Cancer genomics · knowledge-base interpretation
+- **Methods:** OncoKB Cancer Gene List (1,236 genes), MSK-IMPACT / FoundationOne / COSMIC panel cross-reference, LLM-assisted report drafting
+- **Key contribution:** Interactive tool over the full OncoKB Cancer Gene List cross-referenced against major clinical sequencing panels, with AI-assisted generation of structured, research-oriented (not diagnostic) variant summaries.
+- **Repository:** [oncoKB-cancer-genomics-analysis](https://github.com/hannahyu-source/oncoKB-cancer-genomics-analysis)
+
+> All four projects are research / hypothesis-generating analyses, not clinical diagnostic tools.
+
+---
+
+## 🔬 Science Education & STEM Content
+
+*Translating scientific concepts into accessible educational content and interactive learning experiences.*
+
+**[Himalaya Fossil Science Class](https://github.com/hannahyu-source/Himalaya-Fossil-Science-Class)** — a 13-slide interactive lesson on plate tectonics and marine fossils in the Himalayas, for a middle/high-school science class, with three hands-on activities (strata layering, clay mountain-building, fossil hunt).
+
+**[Star Constellation](https://github.com/hannahyu-source/star-constellation)** — an interactive astronomy web app covering 19 constellations across all four seasons, pairing seasonal star maps with mythology.
+
+---
+
+## 💻 Data & Web Applications
+
+*Applying Python, public datasets, visualization, and lightweight web development to practical data problems.*
+
+**[Bike-Share Demand Analysis](https://github.com/hannahyu-source/bike-share-demand-analysis)** — end-to-end demand forecasting on the UCI bike-share dataset (regression models, feature importance, anomaly detection, train/test generalization checks). A [London companion study](https://github.com/hannahyu-source/London-bike-share-demand-analysis) repeats the methodology on a second city to contrast time-based vs. random train/test splits.
+
+**[STI Surveillance Dashboard](https://github.com/hannahyu-source/STI-surveillance-dashboard)** — a public-health dashboard visualizing weekly STI surveillance trends from KDCA (Korea Disease Control) sample-surveillance data.
+
+---
+
+## Skills
+
+**Genomics**
+WES/WGS · RNA-seq · Variant Interpretation · Clinical Genomics · Cancer Genomics · Rare Disease Genomics · Family Genomics · ClinVar · KEGG · OncoKB
+
+**Data & ML**
+Python · pandas · scikit-learn · XGBoost · SHAP · Statistical Analysis · Data Visualization
+
+**AI-Assisted Workflow**
+Claude Code · LLM-assisted literature review · AI-assisted data analysis
+
+---
+
+| Area | Project | Focus |
+|---|---|---|
+| Genomics | KEGG Family Genome | ClinVar × KEGG × family SNP |
+| Genomics ML | Genomic Variant ML | XGBoost, SHAP, generalization |
+| Family Genomics | Family-of-Five | inheritance and genotype comparison |
+| Cancer Genomics | OncoKB | cancer gene knowledge-base analysis |
+| Science Education | Himalaya Fossil | STEM learning content |
+| Data / Web | Bike-Share Demand | forecasting dashboard, public data |

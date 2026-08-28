@@ -8,6 +8,8 @@ The repositories below extend that work into computational analysis: clinical an
 
 **Portfolio:** [hannahyu-source.github.io/portfolio](https://hannahyu-source.github.io/portfolio/)
 
+**Earlier CV site (archived):** [portfolio-canva](https://hannahyu-source.github.io/portfolio-canva/) — the same CV designed in Canva and exported as a single static HTML page, with the profile photo inlined as base64. Superseded by the hand-coded portfolio above; kept online for reference ([repository](https://github.com/hannahyu-source/portfolio-canva)).
+
 ---
 
 ## 🧬 Genomics & Bioinformatics

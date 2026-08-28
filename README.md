@@ -76,6 +76,10 @@ Can a weekly literature scan stay useful when nobody curates it by hand?
 
 **[STI Surveillance Dashboard](https://github.com/hannahyu-source/STI-surveillance-dashboard)** — a public-health dashboard visualizing weekly STI surveillance trends from KDCA (Korea Disease Control) sample-surveillance data.
 
+**[Starbucks Korea Store Dashboard](https://github.com/hannahyu-source/starbucks-eda)** — an interactive map of 2,134 Starbucks Korea stores (Leaflet + Chart.js) with filters for region, Drive Thru, Reserve and parking, plus search and per-store detail. Ships as a single static HTML file with the store data embedded, so it needs no server or API key.
+
+**[SSG.com Insight Dashboard](https://github.com/hannahyu-source/ssg-dashboard)** — exploratory analysis of 387 discounted product listings collected from SSG.com's internal API: price and discount-rate distributions, brand share, TF-IDF on product names, and price–discount correlation, presented as a static infographic dashboard with a written report.
+
 ---
 
 ## Skills

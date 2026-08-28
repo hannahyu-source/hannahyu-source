@@ -108,3 +108,5 @@ Claude Code · LLM-assisted literature review · AI-assisted data analysis
 | Data / Web | STI Surveillance | KDCA weekly surveillance dashboard |
 | Data / Web | Starbucks Korea | 2,134-store interactive map |
 | Data / Web | SSG.com Insight | price and discount-rate EDA dashboard |
+| Portfolio | Portfolio Site | hand-coded static site, Tailwind build on GitHub Pages |
+| Portfolio | Portfolio (Canva) | archived Canva-exported CV page, superseded |

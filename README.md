@@ -110,3 +110,11 @@ Claude Code · LLM-assisted literature review · AI-assisted data analysis
 | Data / Web | SSG.com Insight | price and discount-rate EDA dashboard |
 | Portfolio | Portfolio Site | hand-coded static site, Tailwind build on GitHub Pages |
 | Portfolio | Portfolio (Canva) | archived Canva-exported CV page, superseded |
+
+---
+
+## Contact
+
+- **Email:** yuhannah82@gmail.com
+- **LinkedIn:** [hannah-yu-9020ab268](https://www.linkedin.com/in/hannah-yu-9020ab268/)
+- **Google Scholar:** [publication list](https://scholar.google.com/citations?user=pQJStZ0AAAAJ)

@@ -2,7 +2,9 @@
 
 **Clinical Genomics | Bioinformatics | Genomic Data Analysis**
 
-I work at the intersection of genomic data analysis, clinical interpretation, and computational biology. My portfolio focuses primarily on clinical genomics, family genomic analysis, cancer genomics, and explainable machine learning for genomic data. I also develop science-education content and data-driven web applications.
+I work across the clinical genomics workflow end to end — producing the data and interpreting it. At Samsung Medical Center I ran WES and RNA sequencing on cancer patient samples; at 3billion I interpreted WES/WGS results and wrote clinical reports. Earlier, at Ohio State, I developed a high-fidelity Oxford Nanopore sequencing strategy (first author, *Advanced Science*, IF 14.5).
+
+The repositories below extend that work into computational analysis: clinical and family genomics, cancer genomics, explainable machine learning on variant data, and workflow automation. I also develop science-education content and data-driven web applications.
 
 **Portfolio:** [hannahyu-source.github.io/portfolio](https://hannahyu-source.github.io/portfolio/)
 
@@ -42,7 +44,15 @@ How can a curated cancer-gene knowledge base support hypothesis-generating, vari
 - **Key contribution:** Interactive tool over the full OncoKB Cancer Gene List cross-referenced against major clinical sequencing panels, with AI-assisted generation of structured, research-oriented (not diagnostic) variant summaries.
 - **Repository:** [oncoKB-cancer-genomics-analysis](https://github.com/hannahyu-source/oncoKB-cancer-genomics-analysis)
 
-> All four projects are research / hypothesis-generating analyses, not clinical diagnostic tools.
+### 05 · Genome Weekly Report
+Can a weekly literature scan stay useful when nobody curates it by hand?
+
+- **Focus:** Literature curation · workflow automation
+- **Methods:** Claude Code skills + scheduled cloud routines, PubMed and bioRxiv APIs, Notion API
+- **Key contribution:** Scheduled workflow that gathers the past week's PubMed papers and bioRxiv preprints in genomics/bioinformatics, keeps only what bears on sequencing throughput, cost and QC or on pipelines, algorithms and benchmarks, and publishes a structured Korean report to Notion every Monday. The curation rules live in the Notion page rather than the routine prompt, so the editorial direction can be changed without touching the automation.
+- **Repository:** [genome-weekly-report](https://github.com/hannahyu-source/genome-weekly-report)
+
+> Projects 01–04 are research / hypothesis-generating analyses, not clinical diagnostic tools.
 
 ---
 
@@ -69,7 +79,7 @@ How can a curated cancer-gene knowledge base support hypothesis-generating, vari
 ## Skills
 
 **Genomics**
-WES/WGS · RNA-seq · Variant Interpretation · Clinical Genomics · Cancer Genomics · Rare Disease Genomics · Family Genomics · ClinVar · KEGG · OncoKB
+WES/WGS · RNA-seq · Long-read Sequencing (Oxford Nanopore) · Variant Interpretation · Clinical Genomics · Cancer Genomics · Rare Disease Genomics · Family Genomics · ClinVar · KEGG · OncoKB
 
 **Data & ML**
 Python · pandas · scikit-learn · XGBoost · SHAP · Statistical Analysis · Data Visualization
@@ -85,5 +95,6 @@ Claude Code · LLM-assisted literature review · AI-assisted data analysis
 | Genomics ML | Genomic Variant ML | XGBoost, SHAP, generalization |
 | Family Genomics | Family-of-Five | inheritance and genotype comparison |
 | Cancer Genomics | OncoKB | cancer gene knowledge-base analysis |
+| Automation | Genome Weekly Report | PubMed/bioRxiv → Notion, weekly |
 | Science Education | Himalaya Fossil | STEM learning content |
 | Data / Web | Bike-Share Demand | forecasting dashboard, public data |

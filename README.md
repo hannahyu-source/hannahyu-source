@@ -103,4 +103,8 @@ Claude Code · LLM-assisted literature review · AI-assisted data analysis
 | Cancer Genomics | OncoKB | cancer gene knowledge-base analysis |
 | Automation | Genome Weekly Report | PubMed/bioRxiv → Notion, weekly |
 | Science Education | Himalaya Fossil | STEM learning content |
-| Data / Web | Bike-Share Demand | forecasting dashboard, public data |
+| Science Education | Star Constellation | seasonal star maps and mythology |
+| Data / Web | Bike-Share Demand | forecasting on public data (D.C. + London) |
+| Data / Web | STI Surveillance | KDCA weekly surveillance dashboard |
+| Data / Web | Starbucks Korea | 2,134-store interactive map |
+| Data / Web | SSG.com Insight | price and discount-rate EDA dashboard |
